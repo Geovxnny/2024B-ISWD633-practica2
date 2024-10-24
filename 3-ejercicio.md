@@ -23,4 +23,4 @@ La figura presenta el esquema creado en donde los puertos son:
 ### Conectarse a la base de datos info
 ### Realizar un select *from personas
 
-![Imagen](img/baseDatos.png)
+![Imagen](img/select_personas.png)
