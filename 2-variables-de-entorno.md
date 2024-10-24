@@ -12,7 +12,7 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 
 # COMPLETAR
 
-# CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+![Imagen](img/jenkins_entorno.png)
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
 # COMPLETAR
