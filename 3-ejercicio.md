@@ -2,7 +2,7 @@
 docker run -d --name Contenedor_Postg -e contraseña=junior2003 postgres:11.21-alpine3.17
 
 ### Crear un cliente de postgres. Usar la imagen: dpage/pgadmin4
-docker run -d --name Contenedor_pgadmin -e PGADMIN_EMAIL=admin@gmail.com -e PGADMIN_PASSWORD=admin -p 80:80 dpage/pgadmin4
+docker run -d --name pgadmin_container --network mi_red -e PGADMIN_DEFAULT_EMAIL=admin@example.com -e PGADMIN_DEFAULT_PASSWORD=admin -p 80:80 dpage/pgadmin4
 
 La figura presenta el esquema creado en donde los puertos son:
 - a: (completar con el valor)
