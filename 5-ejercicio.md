@@ -52,6 +52,7 @@ recordar que a es el puerto que usó para el mapeo con wordpress
 
 ### ¿Qué ha sucedido, qué puede observar?
 # COMPLETAR
+Al eliminar y recrear el contenedor, noté que se perdió toda la configuración previa. Es decir, se eliminó por completo todo el contenido y las configuraciones del contenedor.
 
 
 
