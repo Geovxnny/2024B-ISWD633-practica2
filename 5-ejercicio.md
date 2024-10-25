@@ -29,13 +29,22 @@ Ingresar desde el navegador al wordpress y finalizar la configuración de instal
 
 ![Imagen](img/wordpress_confi.png)
 
+![Imagen](img/confi_1.png)
+
+![Imagen](img/confi_2.png)
+
 Desde el panel de admin: cambiar el tema y crear una nueva publicación.
 Ingresar a: http://localhost:9300/ 
 recordar que a es el puerto que usó para el mapeo con wordpress
 # COLOCAR UNA CAPTURA DEL SITO EN DONDE SEA VISIBLE LA PUBLICACIÓN.
 
+![Imagen](img/primera_publicacion.png)
+
 ### Eliminar el contenedor wordpress
 # COMPLETAR
+```
+docker rm mi_wordpress
+```
 
 ### Crear nuevamente el contenedor wordpress
 Ingresar a: http://localhost:9300/ 
