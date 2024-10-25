@@ -24,6 +24,9 @@ La figura presenta el esquema creado en donde los puertos son:
 ## Desde el servidor postgresl
 ### Acceder al servidor
 ### Conectarse a la base de datos info
+```
+docker exec -it Contenedor_Postg psql -U postgres
+```
 ### Realizar un select *from personas
 
 ![Imagen](img/select_personas.png)
